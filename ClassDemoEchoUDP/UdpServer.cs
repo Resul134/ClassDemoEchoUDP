@@ -16,7 +16,7 @@ namespace ClassDemoEchoUDP
 
             Console.WriteLine("UDP receiver started på port" + PORT );
 
-            IPEndPoint endpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), PORT);
+            IPEndPoint endpoint = new IPEndPoint(IPAddress.Loopback, PORT);
 
             while (true)
             {

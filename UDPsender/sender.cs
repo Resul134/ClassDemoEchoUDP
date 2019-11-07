@@ -25,7 +25,7 @@ namespace UDPsender
             while (true)
             {
 
-                client.Connect(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 7007));
+                client.Connect(new IPEndPoint(IPAddress.Loopback, 7007));
 
                 string input = Console.ReadLine();
 

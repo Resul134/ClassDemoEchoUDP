@@ -10,7 +10,7 @@ namespace JsonUDPReciever
 {
     public class Reciever
     {
-        private const int PORT = 10100;
+        private const int PORT = 1337;
 
         public void Start()
         {
